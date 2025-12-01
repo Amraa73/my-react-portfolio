@@ -1,0 +1,32 @@
+:root{
+  --main:rgb(214, 48, 49);
+  --bg:rgb(44, 62, 80);
+  --dark-bg:rgb(34, 48, 62);
+  --font:rgb(255,255,255);
+  --second-font:rgb(135, 134, 134);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montsrrat', sans-serif;
+  background-color: var(--bg);
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,56 @@
+.skills{
+  width: 90%;
+  height: 100%;
+  margin: 30px auto;
+}
+
+.skills .title{
+  width: 100%;
+  height: auto;
+}
+
+.title span{
+  color: var(--font);
+  font-size: 0.8rem;
+}
+
+.title h2{
+  color: var(--main);
+  font-size: 1.8rem;
+}
+
+.skills .skill-cards{
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skill-cards .card{
+  background-color: var(--dark-bg);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card .card-title{
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card-title .card-icon{
+  color: var(--main);
+  font-size: 1.8rem;
+}
+
+.card-title span{
+  color: var(--font);
+  font-size: 1.2rem;
+  margin: 10px 0 0 0;
+}
+
+.card p{
+  margin: 10px 0;
+  color: var(--second-font);
+  font-size: 0.9rem;
+}
